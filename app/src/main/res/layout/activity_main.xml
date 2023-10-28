@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img_19"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="55dp"
+            android:text="INITIATOR"
+            android:textSize="32dp"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <Button
+            android:id="@+id/skyebtn"
+            android:layout_width="405dp"
+            android:layout_height="173dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="335dp"
+            android:baselineAligned="false"
+            android:text="Skye"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <Button
+            android:id="@+id/breachbtn"
+            android:layout_width="383dp"
+            android:layout_height="163dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="127dp"
+            android:baselineAligned="false"
+            android:text="Breach"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <Button
+            android:id="@+id/kayobtn"
+            android:layout_width="409dp"
+            android:layout_height="178dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="545dp"
+            android:baselineAligned="false"
+            android:text="Kayo"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
+

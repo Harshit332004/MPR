@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/skye"
+            android:layout_width="395dp"
+            android:layout_height="269dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/breachwlp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bioBR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="181dp"
+            android:text="//Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair."
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toTopOf="@+id/ebilbr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/ebilbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:text="//E-FAULT_LINE - EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone."
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.593"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bioBR"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/bird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="35dp"
+            android:text="//C-AFTERSHOCK - EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area."
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toTopOf="@+id/flashbreach"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/flashbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="198dp"
+            android:text="//Q-FLASHPOINT - EQUIP a blinding charge. FIRE the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it."
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toTopOf="@+id/ultbr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flashbreach"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/ultbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:text="//X-ROLLING_THUNDER - EQUIP a Seismic Charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it."
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flashbr"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="194dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="@+id/bioBR"
+            app:layout_constraintTop_toBottomOf="@+id/bioBR"
+            tools:ignore="MissingConstraints"
+            android:src="@drawable/img_10" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="187dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="108dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ebilbr"
+            tools:ignore="MissingConstraints"
+            android:src="@drawable/img_9" />
+
+        <ImageView
+            android:id="@+id/flashbreach"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="92dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bird"
+            android:src="@drawable/flashbr"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
